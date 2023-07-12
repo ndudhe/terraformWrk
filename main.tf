@@ -9,11 +9,3 @@ terraform {
 provider "akamai" {
   
 }
-
-provider "aws" {
-  
-}
-
-output "instance_Type" {
-  value = instanceType
-}
